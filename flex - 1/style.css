@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  background-color: rgb(250, 196, 196);
+  flex-direction: column;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 540px;
+  height: 430px;
+  
+  justify-content: space-around;
+
+ 
+}
+
+header {
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  height: 80PX;
+  margin: 10px;
+align-items: center;
+
+
+}
+
+aside {
+  background-color: rgb(23, 174, 119);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150PX;
+ gap: 10px;
+}
+
+article {
+  background-color: rgb(236, 91, 91);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  height: 330PX;
+ 
+
+}
+
+
+
+
+
+.containe-img {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.containe-img div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  width: 100px;
+  height: 80px;
+
+  background-color: rgb(212, 212, 212);
+  margin: 10px;
+}
+
+footer {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    height: 80PX;
+    align-items: center;
+    margin: 10px;
+}
+
+.aside-art {
+  display: flex;
+  justify-content: space-around;
+  
+}
