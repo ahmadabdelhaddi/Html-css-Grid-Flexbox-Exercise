@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  gap: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.One {
+  width: 100px;
+  height: 20vh;
+  background-color: red;
+}
+
+.Two {
+  height: 30vh;
+  background-color: red;
+}
+
+.Three {
+  width: 100px;
+  height: 15vh;
+  background-color: red;
+}
+.Four {
+
+  width: 100px;
+  height: 35vh;
+  background-color: red;
+  
+}
+
+.Five {
+  width: 100px;
+  height: 50vh;
+  background-color: red;
+  
+}
+.six {
+  
+  width: 100px;
+  height: 20vh;
+  background-color: red;
+}

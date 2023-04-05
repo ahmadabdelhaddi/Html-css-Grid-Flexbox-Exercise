@@ -1,0 +1,56 @@
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500PX;
+
+}
+.nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+li {
+  margin-right: 10px;
+  list-style: none;
+  display: flex;
+  
+}
+
+.menue:hover{
+    color: #beb159;
+    margin-bottom: 10px;
+
+}
+.menue:hover .menu{
+  color: #454567;
+  
+  cursor: pointer;
+  visibility: visible;
+
+}
+
+.menu {
+    position: absolute;
+    top: 90px;
+  width: fit-content;
+  visibility: hidden;
+  background-color: #89cca9;
+}
+.menu li{
+    margin: 20PX;
+}
+.btn {
+    
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 3px solid black;
+  box-shadow: 3px 3px 1px black;
+  margin: 10px;
+}

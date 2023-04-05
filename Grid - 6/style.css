@@ -1,0 +1,46 @@
+.container {
+  width: 100vh;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 5px;
+
+  grid-template-areas:
+    "header header header header menue menue"
+    "header header header header menue menue"
+    "aside aside article article menue menue"
+    "aside aside article article menue menue"
+    "aside  aside article article menue menue"
+    "footer footer footer footer footer footer";
+}
+
+.container div {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+}
+.One {
+  background-color: #ff9b6d;
+  grid-area: header;
+}
+.Two {
+  background-color: #ffd37c;
+  grid-area: aside;
+}
+.Three {
+  background-color: #c8d878;
+
+  grid-area: article;
+}
+.Four {
+  background-color: #7dbca9;
+  grid-area: menue;
+}
+.Five {
+  background-color: #87ceeb;
+  grid-area: footer;
+}

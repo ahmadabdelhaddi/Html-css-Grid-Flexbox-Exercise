@@ -1,0 +1,120 @@
+.parent {
+  width: 735px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  color: white;
+  font-weight: bold;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr ;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;  */
+  background-color: rgb(239, 239, 239);
+  gap: 5px;
+  grid-template-areas:
+    "header header header header header header header header "
+    "aside aside  article article article article article article"
+    "aside aside  article article article article article article"
+    "aside aside  article article article article article article"
+    "aside aside  footer footer footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: #ff9b6d;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header div {
+  background-color: #ffd37c;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 160px;
+  height: 70px;
+  grid-column-start: 1;
+}
+.nav {
+  width: 530px;
+  height: 70px;
+  grid-column-start: 2;
+}
+
+.aside-bar {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-area: aside;
+  background-color: #c7e143;
+  gap: 10px;
+  
+}
+
+.aside-bar div {
+  background-color: #a9ba4f;
+  width: 160px;
+  height: 110px;
+  padding-top: 20px;
+}
+
+.article-bar {
+  display: grid;
+  grid-area: article;
+  background-color: #7dbca9;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.article-bar div {
+  background-color: #8de1ca;
+  width: 140px;
+  height: 220px;
+  padding: 10px;
+  display: grid;
+}
+
+.article-bar > div:nth-child(1) {
+  grid-column-start: 1;
+}
+
+.article-bar > div:nth-child(2) {
+  grid-column-start: 2;
+}
+
+.article-bar > div:nth-child(3) {
+  grid-column-start: 3;
+}
+.footer {
+  grid-area: footer;
+  background-color: #87ceeb;
+
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer div {
+  background-color: #8a9dc7;
+  height: 70px;
+  display: grid;
+  align-items: center;
+  padding: 10px;
+
+}
+.Programing {
+  width: 23rem;
+  grid-column-start: 2;
+}
+.logo2 {
+  display: grid;
+  justify-content: center;
+  width: 100px;
+  grid-column-start: 4;
+}

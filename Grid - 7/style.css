@@ -1,0 +1,53 @@
+.container {
+    width: 100vh;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    gap: 5px;
+  
+    grid-template-areas:
+      "header header aside aside aside aside aside aside aside aside aside aside aside"
+      "header header aside aside aside aside aside aside aside aside aside aside aside"
+      "header header article article article article article article article menue menue menue menue"
+      "header header article article article article article article article menue menue menue menue"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+      "header header footer footer footer footer footer footer footer footer footer footer footer"
+     ;
+  }
+  
+  .container div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+  }
+  .One {
+    background-color: #ff9b6d;
+    grid-area: header;
+  }
+  .Two {
+    background-color: #ffd37c;
+    grid-area: aside;
+  }
+  .Three {
+    background-color: #c8d878;
+  
+    grid-area: article;
+  }
+  .Four {
+    background-color: #7dbca9;
+    grid-area: menue;
+  }
+  .Five {
+    background-color: #87ceeb;
+    grid-area: footer;
+  }
+  

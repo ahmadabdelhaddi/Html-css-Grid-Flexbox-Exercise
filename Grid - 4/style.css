@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 100px 100px 120px;
+  grid-template-areas:
+    "image header"
+    "image texts"
+    "image texts";
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 320px;
+  border: 2px solid black;
+}
+
+.img {
+  grid-area: image;
+  padding: 10px;
+  border-radius: 18px;
+}
+.header {
+    margin-top: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  grid-area: header;
+}
+.texts {
+  font-size: 13px;
+  margin-bottom: 60px;
+
+  grid-area: texts;
+}
